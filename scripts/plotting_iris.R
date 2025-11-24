@@ -21,7 +21,7 @@ ggplot(data, aes(Sepal.Length, Sepal.Width, color = Species)) +
         geom_point() +
         geom_smooth(method = 'lm') +
         labs(y = 'Sepal width', x = 'Sepal length') +
-        theme_starwars() +
+        #theme_starwars() +
         theme(panel.grid.minor = element_blank(),
               legend.position = 'top')
       
